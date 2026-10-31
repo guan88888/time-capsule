@@ -1,0 +1,83 @@
+/* 公共样式 */
+.container {
+	padding: 30rpx;
+}
+
+.btn-primary {
+	background: linear-gradient(135deg, #6c5ce7 0%, #a29bfe 100%);
+	color: #fff;
+	border-radius: 50rpx;
+	padding: 24rpx 60rpx;
+	font-size: 32rpx;
+	border: none;
+	box-shadow: 0 8rpx 20rpx rgba(108, 92, 231, 0.3);
+}
+
+.btn-secondary {
+	background: rgba(255, 255, 255, 0.1);
+	color: #fff;
+	border-radius: 50rpx;
+	padding: 24rpx 60rpx;
+	font-size: 32rpx;
+	border: 1rpx solid rgba(255, 255, 255, 0.2);
+}
+
+.card {
+	background: rgba(255, 255, 255, 0.05);
+	border-radius: 24rpx;
+	padding: 30rpx;
+	margin-bottom: 30rpx;
+	backdrop-filter: blur(10rpx);
+	border: 1rpx solid rgba(255, 255, 255, 0.1);
+}
+
+.input-group {
+	margin-bottom: 40rpx;
+}
+
+.input-label {
+	color: rgba(255, 255, 255, 0.7);
+	font-size: 28rpx;
+	margin-bottom: 16rpx;
+	display: block;
+}
+
+.input-field {
+	background: rgba(255, 255, 255, 0.1);
+	border-radius: 16rpx;
+	padding: 24rpx;
+	color: #fff;
+	font-size: 32rpx;
+	border: 1rpx solid rgba(255, 255, 255, 0.1);
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.input-field::placeholder {
+	color: rgba(255, 255, 255, 0.4);
+}
+
+.star {
+	position: absolute;
+	width: 2rpx;
+	height: 2rpx;
+	background: #fff;
+	border-radius: 50%;
+	animation: twinkle 3s infinite;
+}
+
+@keyframes twinkle {
+	0%, 100% { opacity: 0.3; }
+	50% { opacity: 1; }
+}
+
+.capsule-glow {
+	box-shadow: 0 0 30rpx rgba(108, 92, 231, 0.5);
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	0%, 100% { transform: scale(1); }
+	50% { transform: scale(1.05); }
+}
+

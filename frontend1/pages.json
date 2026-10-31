@@ -1,0 +1,132 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "时空胶囊",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/reset-password/reset-password",
+			"style": {
+				"navigationBarTitleText": "重置密码",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/create/create",
+			"style": {
+				"navigationBarTitleText": "创建胶囊"
+			}
+		},
+		{
+			"path": "pages/capsule-list/capsule-list",
+			"style": {
+				"navigationBarTitleText": "我的胶囊"
+			}
+		},
+		{
+			"path": "pages/unlock/unlock",
+			"style": {
+				"navigationBarTitleText": "解锁胶囊",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/review/review",
+			"style": {
+				"navigationBarTitleText": "回顾胶囊"
+			}
+		},
+		{
+			"path": "pages/share/share",
+			"style": {
+				"navigationBarTitleText": "共享胶囊"
+			}
+		},
+		{
+			"path": "pages/share-unlock/share-unlock",
+			"style": {
+				"navigationBarTitleText": "解锁共享胶囊"
+			}
+		},
+		{
+			"path": "pages/emotion-calendar/emotion-calendar",
+			"style": {
+				"navigationBarTitleText": "情绪日历"
+			}
+		},
+		{
+			"path": "pages/achievement/achievement",
+			"style": {
+				"navigationBarTitleText": "成就中心"
+			}
+		},
+		{
+			"path": "pages/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "时空胶囊",
+		"navigationBarBackgroundColor": "#1a1a2e",
+		"backgroundColor": "#0f0f1e"
+	},
+	"tabBar": {
+		"color": "#8f8f94",
+		"selectedColor": "#6c5ce7",
+		"backgroundColor": "#1a1a2e",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/profile/profile",
+				"text": "我的",
+				"iconPath": "static/tabbar/home.png",
+				"selectedIconPath": "static/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/capsule-list/capsule-list",
+				"text": "胶囊",
+				"iconPath": "static/tabbar/capsule.png",
+				"selectedIconPath": "static/tabbar/capsule-active.png"
+			},
+			{
+				"pagePath": "pages/achievement/achievement",
+				"text": "成就",
+				"iconPath": "static/tabbar/achievement.png",
+				"selectedIconPath": "static/tabbar/achievement-active.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "时空",
+				"iconPath": "static/tabbar/profile.png",
+				"selectedIconPath": "static/tabbar/profile-active.png"
+			}
+		]
+	},
+	"uniIdRouter": {}
+}
